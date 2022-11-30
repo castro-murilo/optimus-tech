@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@400;700&display=swap');
+@import url(styles/header.css);
+@import url(styles/about.css);
+@import url(styles/numbers.css);
+@import url(styles/about-jobs.css);
+@import url(styles/jobs.css);
+@import url(styles/quote.css);
+@import url(styles/email.css);
+
+:root {
+    --red: #8E2424;
+    --black: #101828;
+    --white: #fff;
+    --gray: #667085;
+    --dark-gray: #3A404E;
+    --light-gray: #98A2B3;
+    --light-gray-secondary: #D0D5DD;
+    --principal-font: 'Inter', sans-serif;
+}
+
+body {
+    font-size: 16px;
+    font-family: var(--principal-font);
+    box-sizing: border-box;
+}
+
+.footer {
+    padding-bottom: 5em;
+    text-align: center;
+}
+
+.footer__text {
+    color: var(--light-gray);
+    font-weight: 700;
+}

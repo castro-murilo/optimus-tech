@@ -1,0 +1,27 @@
+.about {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10vh 20vw;
+}
+
+.about__subtitle {
+    color: var(--red);
+    font-weight: 600;
+}
+
+.about__title {
+    color: var(--black);
+    font-size: 48px;
+    font-weight: 600;
+    margin: 1em 0;
+}
+
+.about__text {
+    color: var(--gray);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+}

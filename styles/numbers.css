@@ -1,0 +1,26 @@
+.numbers {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10vh 10vw;
+}
+
+.numbers__item {
+    padding: 2em;
+}
+.numbers__item--title {
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--red);
+    margin-bottom: 0.4em;
+}
+
+.numbers__item--subtitle {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 0.7em;
+}
+
+.numbers__item--text {
+    color: var(--gray);
+    line-height: 24px;
+}

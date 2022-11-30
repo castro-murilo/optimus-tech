@@ -1,0 +1,28 @@
+.quote {
+    text-align: center;
+    margin: 10em 15em;
+}
+
+.quote__subtitle {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--red);
+}
+
+.quote__title {
+    font-size: 36px;
+    font-weight: 500;
+    color: var(--black);
+    margin: 1em 0;
+}
+
+.quote-profile__title {
+    font-weight: 500;
+    color: var(--black);
+    margin: 1em 0;
+}
+
+.quote-profile__text {
+    color: var(--light-gray);
+    font-size: 14px;
+}

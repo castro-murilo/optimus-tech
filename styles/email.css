@@ -1,0 +1,40 @@
+.email {
+    text-align: center;
+    margin: 20em 0 2em 0;
+}
+
+.email__title {
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--black);
+}
+
+.email__text {
+    font-size: 20px;
+    color: var(--gray);
+    margin: 1.5em 0;
+}
+
+.email-input__area {
+    width: 20vw;
+    padding: 1em 1em;
+    border:1px solid var(--light-gray-secondary);
+    border-radius: 4px;
+} 
+
+.email-input__area::placeholder {
+    color: var(--gray);
+    font-family: var(--principal-font);
+    font-size: 16px;
+}
+
+
+.email-input__submit {
+    background-color: var(--red);
+    font-weight: 500;
+    color: var(--white);
+    padding: 1em 1.5em;
+    border: none;
+    border-radius: 8px;
+    margin-left: 1em;
+}
